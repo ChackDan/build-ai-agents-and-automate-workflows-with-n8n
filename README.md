@@ -6,6 +6,8 @@ This is the repository for the LinkedIn Learning course **Build AI Agents and Au
 
 ## Course Description
 
+Use n8n - the open source workflow automation tool - to build advanced custom AI-powered business-process automations connecting your existing tools together to create AI agents that simplify your work. Choose n8n as a cloud app, mount it on prem, or run it locally on your computer for full control. Learn how to build an advanced AI agent that connects with external sources like Google Sheets and Slack to perform data processing and management based on natural language inputs. Create, share, and test out automation flows with your team and the n8n community.
+
 ## Instructions
 
 This repository contains the n8n workflows and example data used in the course for reference.
@@ -38,4 +40,4 @@ Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learn
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
 [lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQGmwk8Sfhr82g/learning-public-crop_675_1200/B4EZd_sUmBHcAY-/0/1750194015319?e=2147483647&v=beta&t=dlJ1bHTQ9Mb9RyN54JSyKOE9ROVrmFukVdcGcdCZUKM
