@@ -1,4 +1,4 @@
-# COURSENAME
+# Build AI Agents and Automate Workflows with n8n
 
 This is the repository for the LinkedIn Learning course **Build AI Agents and Automate Workflows with n8n**. The full course is available from [LinkedIn Learning][lil-course-url].
 
