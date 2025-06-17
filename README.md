@@ -1,48 +1,41 @@
 # COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+
+This is the repository for the LinkedIn Learning course **Build AI Agents and Automate Workflows with n8n**. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![lil-thumbnail-url]
 
 ## Course Description
 
-_See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+This repository contains the n8n workflows and example data used in the course for reference.
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+To follow along with the course you need:
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+- an n8n instance (cloud or self-hosted)
+- a Google Sheets account with sample data imported
+- access to Google Sheets, OpenAI, and Slack accounts
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+## Installing the Example Data
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+Full instructions for how to set up the sample data in Google Sheets are provided here: [`example-data/README.md`](example-data/README.md)
+
+## Optional n8n Workflows
+
+The `n8n-workflows/` folder contains JSON files with the finished versions of the workflows covered in the course. You can import these workflows and use them for reference, or follow the course step-by-step to build them out yourself.
+
+The folder also contains the built-out automation flow referenced in the course.
+
+Full setup instructions for how to import the workflows into n8n are provided here: [`n8n-workflows/README.md`](n8n-workflows/README.md)
 
 ## Instructor
 
-Instructor name
+Morten Rand-Hendriksen
 
 Instructor description
 
-                            
-
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
 
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-
+[0]: # "Replace these placeholder URLs with actual course URLs"
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
-
